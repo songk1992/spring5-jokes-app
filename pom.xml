@@ -5,7 +5,7 @@
 
 	<groupId>guru.springframework.joke</groupId>
 	<artifactId>jokeapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>jokeapp</name>
@@ -32,6 +32,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/guru.springframework/chuck-norris-for-actuator -->
+		<dependency>
+			<groupId>guru.springframework</groupId>
+			<artifactId>chuck-norris-for-actuator</artifactId>
+			<version>0.0.2</version>
 		</dependency>
 
 		<dependency>
